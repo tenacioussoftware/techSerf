@@ -1,4 +1,4 @@
-﻿namespace techSerf
+﻿namespace techSerfWeb
 {
     using System;
     using Nancy.Hosting.Self;
