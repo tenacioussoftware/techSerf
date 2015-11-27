@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace techSerfLib
 {
-    public class Class1
+    public class Core
     {
+        public Core()
+        {
+            
+        }
     }
 }
