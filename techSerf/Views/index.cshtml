@@ -1,12 +1,13 @@
 ﻿@{
+    ViewBag.Title = "Home";
     Layout = "Shared/_layout.cshtml";
 }
 
 <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
+            <h1>@ViewBag.ApplicationName</h1>
+            <p>Your own personal serf, to command as you wish!</p>
+            <p><a class="btn btn-primary btn-large" href="/about">Uh, wat?</a>
             </p>
         </header>
 
