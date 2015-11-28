@@ -1,7 +1,7 @@
 ﻿using Nancy;
 using techSerfWeb.Properties;
 
-namespace techSerfWeb
+namespace techSerfWeb.Controllers
 {
     public class IndexModule : NancyModule
     {
