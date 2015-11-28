@@ -15,10 +15,11 @@
             {
                 string viewLocation = string.Concat("Views/", viewName);
 
-                if(context.ModuleName.Equals("Admin"))
+                if (context.ModuleName != null && context.ModuleName.Equals("Admin"))
                 {
                     viewLocation = string.Concat("Areas/Admin/Views/", viewName);
                 }
+
                 return viewLocation;
             });
 
