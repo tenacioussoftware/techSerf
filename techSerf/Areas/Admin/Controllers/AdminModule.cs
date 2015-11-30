@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Nancy;
+﻿using Nancy;
 using techSerfWeb.Properties;
 
-namespace techSerfWeb.Areas.Admin
+namespace techSerfWeb.Areas.Admin.Controllers
 {
     public class AdminModule: NancyModule
     {
@@ -19,7 +14,7 @@ namespace techSerfWeb.Areas.Admin
                 //Grab any settings info and throw it into ViewBag
                 Settings s = new Settings();
                 ViewBag.ApplicationName = s.appName;
-                ViewBag.ViewBase = "Areas/Admin/Views/";
+                ViewBag.ActivePath = "/admin";
                 return null; //Return null to proceed, return HtmlResponse to abort request.
             };
 

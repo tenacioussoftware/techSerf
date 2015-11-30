@@ -65,8 +65,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Areas\Admin\AdminModule.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminModule.cs" />
     <Compile Include="App_Start\Bootstrapper.cs" />
+    <Compile Include="Areas\Admin\Controllers\DeviceModule.cs" />
     <Compile Include="Controllers\IndexModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,7 +79,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Areas\Admin\Views\Devices\index.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Areas\Admin\Views\Shared\_layout.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Areas\Admin\Views\Shared\_sideNav.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Areas\Admin\Views\Shared\_topNav.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Content\css\bootstrap-theme.css.map">
