@@ -68,6 +68,9 @@
     <Compile Include="Areas\Admin\Controllers\AdminModule.cs" />
     <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="Areas\Admin\Controllers\DeviceModule.cs" />
+    <Compile Include="Areas\Admin\Controllers\SettingModule.cs" />
+    <Compile Include="Areas\Admin\Controllers\TaskModule.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserModule.cs" />
     <Compile Include="Controllers\IndexModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,6 +85,9 @@
     <None Include="Areas\Admin\Views\Devices\index.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Areas\Admin\Views\Settings\index.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Areas\Admin\Views\Shared\_layout.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -89,6 +95,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Areas\Admin\Views\Shared\_topNav.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Areas\Admin\Views\Tasks\index.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Areas\Admin\Views\Users\index.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Content\css\bootstrap-theme.css.map">
